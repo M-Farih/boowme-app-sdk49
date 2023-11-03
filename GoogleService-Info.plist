@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>394795660383-p5v4s0nm14stlp18m2pugaknhqkcmbo6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.394795660383-p5v4s0nm14stlp18m2pugaknhqkcmbo6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>394795660383-b4f2fclj12fgjj5udohp6q6f57ip4jtb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBv_CMLnvpRKcX02Yv7vn56JWtvL9w2li4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>394795660383</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.boowmeapp.boowme</string>
+	<key>PROJECT_ID</key>
+	<string>boowme-2dc4c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>boowme-2dc4c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:394795660383:ios:23a5157920e7a616a157ea</string>
+	<key>DATABASE_URL</key>
+	<string>https://boowme-2dc4c-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
