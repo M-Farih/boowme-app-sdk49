@@ -1,0 +1,21 @@
+declare module "@env" {
+  export const IOS_CLIENT_ID: string,
+    IOS_CLIENT_ID_PROD: string,
+    ANDROID_CLIENT_ID_PRODUCTION: string,
+    ANDROID_CLIENT_ID: string,
+    WEB_CLIENT_ID: string,
+    EXPO_CLIENT_ID: string,
+    FIREBASE_API_KEY: string,
+    FIREBASE_AUTH_DOMAIN: string,
+    FIREBASE_DATABASE_URL: string,
+    FIREBASE_PROJECT_ID: string,
+    FIREBASE_STORAGE_BUCKET: string,
+    FIREBASE_MESSAGING_SENDER_ID: string,
+    FIREBASE_APP_ID: string,
+    FB_ID: string,
+    ENV: string,
+    AUTHTOKEN: string,
+    URL_DEV_API: string,
+    URL_STG_API: string,
+    URL_PROD_API: string;
+}

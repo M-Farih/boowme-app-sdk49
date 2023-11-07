@@ -1,5 +1,6 @@
 import { Link, Stack } from 'expo-router';
 import { StyleSheet } from 'react-native';
+import GoogleSignIn from "../hooks/useAuth"
 
 import { Text, View } from '../components/Themed';
 
@@ -12,6 +13,7 @@ export default function NotFoundScreen() {
 
         <Link href="/" style={styles.link}>
           <Text style={styles.linkText}>Go to home screen!</Text>
+          <GoogleSignIn />
         </Link>
       </View>
     </>
