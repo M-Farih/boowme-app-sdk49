@@ -1,5 +1,7 @@
 import { View, Text, StyleSheet, TextInput, Button } from "react-native";
+import { PhoneAuthProvider, signInWithCredential } from "firebase/auth";
 import React from "react";
+import { auth } from "../../services/initializeApp";
 
 const phoneAuth = () => {
   const [number, onChangeNumber] = React.useState("");
@@ -25,7 +27,19 @@ const phoneAuth = () => {
       <Button
         title="Connection"
         color="green"
-        onPress={() => {}}
+        // onPress={async () => {
+        //   try {
+        //     const phoneProvider = new PhoneAuthProvider(auth);
+        //     const verificationId = await phoneProvider.verifyPhoneNumber(
+        //       onChangeNumber,
+        //       // @ts-ignore
+        //       recaptchaVerifier.current
+        //     );
+        //     setVerificationId(verificationId);
+        //   } catch (err: any) {
+        //     console.log(err);
+        //   }
+        // }}
         disabled={number === ""}
       />
     </View>
