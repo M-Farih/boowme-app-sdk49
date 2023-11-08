@@ -2,7 +2,7 @@ import { Drawer } from "expo-router/drawer";
 
 const DrawerLayout = () => {
   return (
-    <Drawer screenOptions={{headerShown:false}}>
+    <Drawer screenOptions={{ headerShown: false, drawerPosition: "right" }}>
       <Drawer.Screen
         name="(tabs)"
         options={{
